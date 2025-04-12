@@ -1,0 +1,50 @@
+/* Основной стиль страницы */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  overflow: hidden;
+  line-height: 1.6;
+  background-color: #000000;
+  color: #ffffffc5;
+}
+/* Таймер и его значения */
+.timerName{
+  text-align: center;
+  font-size: 90px;
+  font-size: 7vmin;
+}
+.timerSigns{
+  display: flex;
+  font-size: 50px;
+  justify-content: center;
+  column-gap: 20px;
+  align-items: center;
+  list-style: none;
+}
+.timerSigns li{
+  font-size: 4vmin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+/* JACK HANMA*/
+.JackHanmaImage{
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 110vh;
+  opacity: 0.5;
+  object-fit: cover;
+  overflow: hidden;
+}
+.crystalCastles{
+  width: 900px;
+  height: 900px;
+}
