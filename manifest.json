@@ -1,0 +1,25 @@
+{
+    "name": "Discipline",
+    "short_name": "Discipline",
+    "icons": [
+      {
+        "src": "./svgs/crystal.svg",
+        "sizes": "any",
+        "type": "image/svg+xml"
+      },
+      {
+        "src": "./svgs/crystal.svg",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "./svgs/crystal.svg",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "start_url": "/",
+    "display": "standalone",
+    "theme_color": "#000000",
+    "background_color": "#000000"
+  }
