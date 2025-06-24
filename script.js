@@ -3,7 +3,7 @@ const daysCountElement = document.querySelector('.timerSigns__daysCount')
 const hoursCountElement = document.querySelector('.timerSigns__hoursCount')
 const minutesCountElement = document.querySelector('.timerSigns__minutesCount')
 const secondsCountElement = document.querySelector('.timerSigns__secondsCount')
-const startTime = new Date(2025,5,23,21,52);
+const startTime = new Date(2025,5,24,10,05);
 
 setInterval(() => {
     const currentTime = new Date();
